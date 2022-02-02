@@ -1,0 +1,20 @@
+{
+  "name": "projeto-node-api",
+  "version": "1.0.0",
+  "description": "Node Api MVP",
+  "scripts": {
+    "test": "jest --env node"
+  },
+  "author": "Bruno Medeiros Menescal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
