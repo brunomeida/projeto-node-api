@@ -12,9 +12,6 @@ app.use(cookieSession({
     keys: ['key1', 'key2']
 }));
 
-app.set('trust proxy', 1) // trust first proxy
-
-
 app.get('/', function (req, res, next) {
     // Update views
     req.session.views = (req.session.views || 0) + 1
